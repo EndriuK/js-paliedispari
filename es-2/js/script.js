@@ -13,3 +13,19 @@ let somma = numeroUser + numbAI;
 // STAMPO IL NUMERO DEL COMPUTER E LA SOMMA IN CONSOLE
 console.log("Numero PC: " + numbAI);
 console.log("Somma: " + somma);
+
+// INIZIALIZZO LA VARIABILE PER VERIFICARE SE LA SOMMA È PARI
+let numeroPari = true;
+
+// ESEGUO LA COMPARAZIONE PER VERIFICARE SE LA SOMMA È PARI O DISPARI
+comparazione();
+
+// VERIFICO SE L'UTENTE HA VINTO O SE HA VINTO IL COMPUTER
+if (
+  (pariDispari === "pari" && numeroPari === true) ||
+  (pariDispari === "dispari" && numeroPari === false)
+) {
+  alert("Hai vinto");
+} else {
+  alert("Ha vinto il PC!");
+}
