@@ -34,3 +34,10 @@ if (
 function numeroComputer() {
   return Math.floor(Math.random() * 5) + 1;
 }
+
+// FUNZIONE PER VERIFICARE SE LA SOMMA È PARI O DISPARI
+function comparazione() {
+  if (somma % 2 !== 0) {
+    numeroPari = false;
+  }
+}
