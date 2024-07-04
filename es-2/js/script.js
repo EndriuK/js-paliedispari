@@ -29,3 +29,8 @@ if (
 } else {
   alert("Ha vinto il PC!");
 }
+
+// FUNZIONE PER GENERARE UN NUMERO CASUALE TRA 1 E 5 PER IL COMPUTER
+function numeroComputer() {
+  return Math.floor(Math.random() * 5) + 1;
+}
